@@ -121,3 +121,4 @@ class Command(BaseCommand):
         self.stdout.write(
             self.style.SUCCESS('Successfully seeded database with sample data!')
         )
+        
