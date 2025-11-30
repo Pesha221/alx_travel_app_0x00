@@ -4,9 +4,7 @@ Define how your application's data is stored and related within the database.
 What we will build
 User – Using Django’s built-in User model
 
-
 Conversation – Represents a chat thread between two or more users
-
 
 Message – Represents individual messages within a conversation
 
@@ -16,9 +14,7 @@ Convert between Python objects and JSON so your API can send and receive data.
 Serializers we will create
 UserSerializer – Handles user data
 
-
 ConversationSerializer – Handles conversation data
-
 
 MessageSerializer – Handles message data
 
@@ -27,20 +23,15 @@ Populate the database with test data for development and testing.
 Seeders will create
 Sample users
 
-
 Example conversations
 
 
 Sample messages
 
-
 You can implement seeders using:
 Django management commands
 
-
 Custom Python scripts placed inside your Django app
-
-
 
 📚 Django Chat Application — Models, Serializers & Seeders
 This project implements a simple chat application using Django and Django REST Framework.
@@ -54,7 +45,6 @@ User
 Conversation
  Represents a chat thread between users. A conversation can include two or more participants.
 
-
 Message
  Represents individual messages sent inside a conversation.
 🔄 Serializers – Data Conversion
@@ -63,34 +53,25 @@ Included Serializers
 UserSerializer
  Handles the conversion of user data for API responses.
 
-
 ConversationSerializer
  Responsible for converting conversation data, including linked participants.
 
-
 MessageSerializer
  Converts message objects, including the sender and timestamp.
-
-
 
 🌱 Seeders – Sample Data Population
 Seeders help populate the database with sample data for development and testing.
 Seeders Will Create
 Sample users
 
-
 Sample conversations
 
-
 Sample messages
-
 
 You can create seeders using:
 Django management commands
 
-
 Standalone Python scripts inside your Django app
-
 
 These seeders make it easy to test the chat functionality without manually entering data.
 
@@ -98,8 +79,6 @@ These seeders make it easy to test the chat functionality without manually enter
 This project demonstrates how to:
 Structure chat-related data with Django models
 
-
 Use serializers for clean API response formatting
-
 
 Seed the database with sample data for testing
